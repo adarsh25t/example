@@ -15,7 +15,7 @@ body{
 
 
 
-/* header section  */
+/* --------------------- header section ----------------------------- */
 header{
     height: 70px;
     display: flex;
@@ -48,4 +48,61 @@ header{
     font-size: 15px;
     color: black;
     font-weight: 600;
+}
+
+/* -------------------------------------- hero section ---------------------------------------- */
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero_left_top span{
+    color: rgb(0, 201, 0);
+    font-weight: 600;
+}
+.hero_left_top h2{
+    font-size: 50px;
+    color: rgb(71, 0, 0);
+}
+.hero_left_top p{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+}
+
+.hero_left_bottom{
+    margin-top: 50px;
+}
+.hero_price{
+    display: flex;
+    align-items: center;
+}
+.hero_left_bottom h3{
+    font-size: 25px;
+    color: #00c900;
+}
+.hero_price span{
+    font-size: 21px;
+    margin-left: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.hero_left_bottom p{
+    color: rgb(180, 180, 180);
+    font-weight: 600;
+    font-size: 14px;
+}
+.hero_left_bottom button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #00c900;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.hero_right img{
+    width: 450px;
 }
